@@ -2,8 +2,8 @@ public class Conferencia extends Evento {
     private boolean catering;
     private boolean equipoAudiovisuales;
 
-    public Conferencia(int id, String cliente, int fechareserva, String tipoEvento, double costoevento, boolean catering, boolean equipoAudiovisuales) {
-        super(id, cliente, fechareserva, tipoEvento, costoevento);
+    public Conferencia(int id, String cliente, int fechareserva, String tipoEvento, double Costoevento, boolean catering, boolean equipoAudiovisuales) {
+        super(id, cliente, fechareserva, tipoEvento, Costoevento);
         this.catering = catering;
         this.equipoAudiovisuales = equipoAudiovisuales;
     }

@@ -2,8 +2,8 @@ public class Boda extends Evento {
     private boolean decoracionFloral;
     private boolean musicaEnVivo;
 
-    public Boda(int id ,String cliente,int fechareserva,String tipoEvento,double costoevento, boolean decoracionFloral, boolean musicaEnVivo) {
-        super(id, cliente, fechareserva, tipoEvento, costoevento);
+    public Boda(int id ,String cliente,int fechareserva,String tipoEvento,double Costoevento, boolean decoracionFloral, boolean musicaEnVivo) {
+        super(id, cliente, fechareserva, tipoEvento, Costoevento);
         this.decoracionFloral = decoracionFloral;
         this.musicaEnVivo = musicaEnVivo;
     }

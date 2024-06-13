@@ -22,5 +22,5 @@ public class Evento extends Reserva  {
         super.mostradatos();
         System.out.println("Tipo de vento:"+getTipoevento()+"Costo Vento"+getCostoevento());
     }
-    public abstract double calcuulardatos();
+    public abstract double calcularCosto();
 }
